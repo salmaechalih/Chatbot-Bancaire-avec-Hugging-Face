@@ -274,16 +274,7 @@ python intent_classifier.py
 streamlit run app_streamlit.py --server.port 8502
 ```
 
-### Contact
-- 📧 Email : support@chatbot-bancaire.fr
-- 📱 Téléphone : 01 23 45 67 89
-- 💬 Chat : Disponible 24h/24
 
-## 🎉 Remerciements
-
-- Hugging Face pour les modèles pré-entraînés
-- Streamlit pour l'interface utilisateur
-- La communauté Python pour les bibliothèques
 
 ---
 
