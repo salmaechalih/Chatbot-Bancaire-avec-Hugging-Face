@@ -1,0 +1,26 @@
+{
+  "label2id": {
+    "simulation_credit": 0,
+    "demande_credit": 1,
+    "information_produit": 2,
+    "calcul_financier": 3,
+    "support_client": 4,
+    "modification_simulation": 5
+  },
+  "id2label": {
+    "0": "simulation_credit",
+    "1": "demande_credit",
+    "2": "information_produit",
+    "3": "calcul_financier",
+    "4": "support_client",
+    "5": "modification_simulation"
+  },
+  "intent_labels": [
+    "simulation_credit",
+    "demande_credit",
+    "information_produit",
+    "calcul_financier",
+    "support_client",
+    "modification_simulation"
+  ]
+}

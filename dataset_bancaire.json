@@ -1,0 +1,272 @@
+{
+  "intents": [
+    {
+      "intent": "simulation_credit",
+      "examples": [
+        "Je voudrais simuler un crédit de 50 000€",
+        "Pouvez-vous me faire une simulation de prêt immobilier ?",
+        "J'aimerais connaître les mensualités pour un crédit de 25 000€ sur 5 ans",
+        "Simulation crédit personnel 15 000€",
+        "Quelles seraient mes mensualités pour un prêt de 100 000€ sur 20 ans ?",
+        "Je souhaite simuler un emprunt",
+        "Calculer un crédit de 30 000€",
+        "Simulation prêt automobile 20 000€ sur 4 ans",
+        "Quel serait le coût d'un crédit de 75 000€ ?",
+        "Je veux faire une simulation de crédit travaux",
+        "Calculer les mensualités pour 40 000€ sur 7 ans",
+        "Simulation crédit immobilier 200 000€ sur 15 ans",
+        "Quel est le montant total à rembourser pour 60 000€ ?",
+        "Je voudrais simuler un prêt personnel de 10 000€",
+        "Calculer un crédit de 80 000€ sur 10 ans"
+      ]
+    },
+    {
+      "intent": "demande_credit",
+      "examples": [
+        "Je veux faire une demande de crédit",
+        "Comment faire pour demander un prêt ?",
+        "J'aimerais solliciter un crédit immobilier",
+        "Quelles sont les étapes pour obtenir un crédit ?",
+        "Je souhaite demander un prêt personnel",
+        "Comment procéder pour un crédit ?",
+        "Je voudrais faire une demande de prêt",
+        "Quelles sont les démarches pour un crédit immobilier ?",
+        "Comment obtenir un crédit personnel ?",
+        "Je souhaite solliciter un prêt",
+        "Quelles sont les conditions pour demander un crédit ?",
+        "Comment faire une demande de prêt automobile ?",
+        "Je voudrais obtenir un crédit travaux",
+        "Quelles sont les étapes pour un prêt ?",
+        "Comment demander un crédit immobilier ?"
+      ]
+    },
+    {
+      "intent": "information_produit",
+      "examples": [
+        "Qu'est-ce qu'un crédit personnel ?",
+        "Quelles sont les différences entre crédit immobilier et personnel ?",
+        "Expliquez-moi le crédit automobile",
+        "Quels sont les avantages du crédit travaux ?",
+        "Qu'est-ce que l'assurance emprunteur ?",
+        "Comment fonctionne un crédit immobilier ?",
+        "Qu'est-ce qu'un prêt personnel ?",
+        "Expliquez-moi les différents types de crédit",
+        "Quels sont les avantages du crédit automobile ?",
+        "Comment fonctionne l'assurance emprunteur ?",
+        "Qu'est-ce qu'un crédit travaux ?",
+        "Quelles sont les caractéristiques d'un prêt immobilier ?",
+        "Expliquez-moi le crédit personnel",
+        "Quels sont les avantages du crédit immobilier ?",
+        "Comment fonctionne un crédit automobile ?"
+      ]
+    },
+    {
+      "intent": "calcul_financier",
+      "examples": [
+        "Quel est le coût total avec assurance ?",
+        "Calculez-moi le TAEG",
+        "Quelle est la différence avec et sans assurance ?",
+        "Quel est le montant total à rembourser ?",
+        "Pouvez-vous me montrer l'amortissement ?",
+        "Calculer le coût total du crédit",
+        "Quel est le TAEG de ce prêt ?",
+        "Quelle est la différence de coût avec assurance ?",
+        "Calculer le montant total à rembourser",
+        "Montrez-moi le tableau d'amortissement",
+        "Quel est le coût des intérêts ?",
+        "Calculer le TAEG du crédit",
+        "Quelle est la différence de mensualité avec assurance ?",
+        "Quel est le montant total du crédit ?",
+        "Pouvez-vous calculer l'amortissement ?"
+      ]
+    },
+    {
+      "intent": "support_client",
+      "examples": [
+        "J'ai oublié mon mot de passe",
+        "Comment contacter un conseiller ?",
+        "Quels sont vos horaires d'ouverture ?",
+        "Je ne comprends pas cette simulation",
+        "Pouvez-vous m'aider ?",
+        "J'ai un problème avec ma simulation",
+        "Comment joindre un conseiller ?",
+        "Quels sont les horaires de la banque ?",
+        "Je ne comprends pas le calcul",
+        "Avez-vous besoin d'aide ?",
+        "J'ai oublié mes identifiants",
+        "Comment contacter le support ?",
+        "Quels sont vos horaires ?",
+        "Je ne comprends pas les résultats",
+        "Pouvez-vous m'expliquer ?"
+      ]
+    },
+    {
+      "intent": "modification_simulation",
+      "examples": [
+        "Je voudrais changer la durée",
+        "Et si je prends 30 000€ au lieu de 25 000€ ?",
+        "Pouvez-vous refaire la simulation avec assurance ?",
+        "Qu'est-ce que ça donne sur 10 ans ?",
+        "Modifiez la simulation pour 15 ans",
+        "Changez le montant à 40 000€",
+        "Refaites la simulation sur 8 ans",
+        "Et si je prends 50 000€ ?",
+        "Modifiez la durée à 12 ans",
+        "Refaites le calcul avec 35 000€",
+        "Changez la simulation pour 6 ans",
+        "Et si je prends 60 000€ au lieu de 50 000€ ?",
+        "Modifiez le montant à 45 000€",
+        "Refaites la simulation sur 9 ans",
+        "Changez la durée à 18 ans"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "montant",
+      "type": "number",
+      "unit": "euros",
+      "examples": [
+        "50 000€",
+        "25 000 euros",
+        "100k",
+        "15 500€",
+        "30 000€",
+        "20 000€",
+        "75 000€",
+        "40 000€",
+        "200 000€",
+        "60 000€",
+        "10 000€",
+        "80 000€",
+        "35 000€",
+        "90 000€",
+        "45 000€",
+        "300 000€",
+        "70 000€",
+        "55 000€",
+        "65 000€",
+        "100 000€"
+      ],
+      "validation": {
+        "min": 1000,
+        "max": 1500000,
+        "step": 1000
+      }
+    },
+    {
+      "name": "duree",
+      "type": "number",
+      "unit": "years",
+      "examples": [
+        "5 ans",
+        "120 mois",
+        "10 années",
+        "3 ans",
+        "20 ans",
+        "4 ans",
+        "7 ans",
+        "15 ans",
+        "8 ans",
+        "12 ans",
+        "6 ans",
+        "9 ans",
+        "18 ans",
+        "11 ans",
+        "14 ans",
+        "16 ans",
+        "25 ans",
+        "2 ans",
+        "30 ans",
+        "1 an"
+      ],
+      "validation": {
+        "min": 1,
+        "max": 25,
+        "step": 1
+      }
+    },
+    {
+      "name": "type_credit",
+      "type": "enum",
+      "values": [
+        "personnel",
+        "immobilier",
+        "automobile",
+        "travaux",
+        "renovation"
+      ],
+      "synonyms": {
+        "personnel": ["prêt personnel", "crédit personnel", "emprunt personnel"],
+        "immobilier": ["prêt immobilier", "crédit immobilier", "emprunt immobilier", "prêt maison", "crédit maison"],
+        "automobile": ["prêt auto", "crédit auto", "emprunt auto", "prêt voiture", "crédit voiture"],
+        "travaux": ["prêt travaux", "crédit travaux", "emprunt travaux", "prêt rénovation", "crédit rénovation"],
+        "renovation": ["prêt rénovation", "crédit rénovation", "emprunt rénovation"]
+      }
+    },
+    {
+      "name": "taux_interet",
+      "type": "percentage",
+      "examples": [
+        "3.5%",
+        "4.2 pour cent",
+        "5.8%",
+        "2.8%",
+        "4.1%",
+        "3.2%",
+        "5.1%",
+        "8.3%",
+        "6.2%",
+        "7.5%"
+      ],
+      "validation": {
+        "min": 1.0,
+        "max": 15.0,
+        "step": 0.1
+      }
+    },
+    {
+      "name": "assurance",
+      "type": "boolean",
+      "values": [
+        "avec assurance",
+        "sans assurance",
+        "oui",
+        "non"
+      ],
+      "context": "assurance_emprunteur"
+    },
+    {
+      "name": "revenus",
+      "type": "number",
+      "unit": "euros_per_month",
+      "examples": [
+        "3500€ par mois",
+        "4500 euros mensuels",
+        "2800€",
+        "5000€/mois",
+        "3200 euros par mois",
+        "6000€",
+        "2200€ par mois",
+        "3800 euros",
+        "4200€/mois",
+        "5500 euros par mois"
+      ],
+      "validation": {
+        "min": 1000,
+        "max": 50000,
+        "step": 100
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "language": "fr",
+    "domain": "banking",
+    "created_date": "2024-01-15",
+    "description": "Dataset d'entraînement pour chatbot bancaire avec Hugging Face",
+    "total_examples": 90,
+    "total_intents": 6,
+    "total_entities": 6
+  }
+} 
